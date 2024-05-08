@@ -1,0 +1,27 @@
+body {
+background-color: white;
+display: flex;justify-content: center;align-items: center;
+}
+.cup {
+position: relative;top: 250px;right: 360px;border-radius: 50px; 
+}
+.div1 {
+width: 100px;height: 100px;background-color: blue;
+position: relative;animation: mymove 6s infinite;animation-fill-mode: forwards;
+border-radius: 50%; opacity: 0.1;
+}
+@keyframes mymove 
+{ from {bottom:0px;}
+ to {bottom: 40px;} 
+}
+.div2 {
+width: 110px;height: 110px;
+background-color: blue;
+position: relative;animation: mymove 6s infinite;
+animation-fill-mode: backwards;border-radius: 50%;opacity: 0.1;
+}
+.div3 {
+ width: 135px;height: 135px;
+background-color: blue; border-radius: 50%; position: relative;
+animation: mymove 6s infinite;animation-fill-mode: backwards; opacity: 0.1;
+}
